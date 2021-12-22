@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "header.h": "c",
+        "cctype": "c",
+        "conio.h": "c",
+        "cmath": "cpp",
+        "*.tcc": "cpp",
+        "crtdefs.h": "c",
+        "typeinfo": "c",
+        "string.h": "c",
+        "type_traits": "c",
+        "stdlib.h": "c",
+        "math.h": "c",
+        "istream": "c",
+        "streambuf": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+
+}
+

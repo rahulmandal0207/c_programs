@@ -1,0 +1,30 @@
+str = This is a string
+rev = string a is This
+      
+
+wordStart = strlen(str)  - 1
+wordEnd = strlen(str)  - 1
+
+while (wordStart > 0)
+{
+    if(str[wordStart] == ' ')  
+    {
+        i = wordStart + 1
+        while(i <= wordEnd)
+        {
+            rev[j] = str[i]
+            i++;
+            j++;
+        }
+        rev[j] = ' '
+        j++
+        wordEnd = wordStart - 1
+    }
+    wordStart--;
+}
+
+for(i=0;i<=wordEnd;i++)
+{
+    rev[j] = str[i];
+    j++;
+}
